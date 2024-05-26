@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  color: orange;
+  background: linear-gradient(45deg, rgb(36, 28, 28), rgb(35, 31, 31));
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+header ul {
+  display: flex;
+  justify-content: left;
+}
+
+header li {
+  list-style: none;
+  margin-left: 24px;
+  font-size: 18px;
+}
+
+header li a {
+  text-decoration: none;
+  color: orange;
+}
+
+body
+{
+    background: linear-gradient(45deg,rgb(20,14,14),rgb(26,24,24));
+}
+
+#title-text {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  color: orange;
+}
+
+#images
+{
+    display: flex;
+    justify-content: center;
+}
+
+.items
+{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    padding-bottom: 12px;
+    background-color: rgb(186, 160, 160);
+}
+
+.items p
+{  
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.items a
+{
+    text-decoration: none;
+    padding: 12px;
+    background-color: orange;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+
+}
+
+
+.items img {
+    height:300px ;
+  width: 450px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 6px;
+}
